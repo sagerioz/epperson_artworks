@@ -1,0 +1,221 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+@import url(https://fonts.googleapis.com/css?family=Nunito:700);
+
+
+body {
+    font-family: 400 15px/1.5 'Open Sans', sans-serif;
+    color: #000;
+    background-color: #f5f6f1;
+    background-size: 25%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+}
+.wrapper {
+    position: relative;
+    max-width: -webkit-calc(60em - (2em * 2));
+    max-width: calc(60em - (2em * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+/* psuedo class */
+.wrapper:after, .footer-col-wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+/*CSS3*/
+.fade-in {
+    margin-top: 0px;
+    text-align: center;
+    animation: fadein 4s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+img, media {
+    max-width: 100%;
+    height: auto;
+}
+.container {
+  display: grid;
+  /* Display as a Grid */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* repeat = as many times as you can fit */
+  /* auto-fit = fit as many items on the line as possible, go bigger if you need to */
+  /*minmax = (min size, max size) = the minimum size the column should be is 200px, but if there's space then give them all 1fr of that width. */
+  grid-gap: 10px;
+}
+.portfolio {
+  
+}
+.project-showcase {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #d6e1e5;
+    padding: 50px 0 0;
+}
+
+
+section {
+    padding: 0 0 50px;
+}
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+
+.container:after, .row:after, .u-cf {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#work .six.columns {
+    margin-left: 0;
+}
+
+
+.u-pull-right {
+    float: right;
+}
+
+.u-pull-left {
+    float: left;
+}
+.column, .columns {
+    width: 100%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.six.columns {
+  width:48%
+}
+
+.project-showcase img.project-image {
+  position:relative;
+  width: 100%
+}
+
+.project-showcase .project-content .project-description {
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0 28px 0;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+.project-title {
+  /*display: block;*/
+  /*float: left;*/
+  font-family: 'Nunito', sans-serif;
+  color: #000;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: .05rem;
+  /*margin-left: 2rem;*/
+}
+
+.project-tags {
+  /*display: block;*/
+  /*float: left;*/
+  font-family: 'Nunito', sans-serif;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: .05rem;
+  /*margin-left: 2rem;*/
+}
+
+@media screen and (min-width: 1025px){}
+
+@media (min-width: 481px){}
+
+  @media screen and (max-width: 480px) {
+  .project-showcase img.project-image {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 750px){
+  .project-showcase {
+      padding: 80px 0 20px;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  section {
+      padding: 0 0 100px;
+  }
+}
+
+@media screen and (min-width: 550px){
+  section {
+      padding: 0 0 65px;
+  }
+  .six.columns {
+      width: 48%;
+  }
+}
