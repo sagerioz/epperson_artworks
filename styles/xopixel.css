@@ -59,12 +59,12 @@ html {
   border-radius: 50%;
   height: 50px;
   float:left;
-  margin-left:2rem;
+  margin-left:1rem;
   padding-bottom: 1rem;
 }
 .xopixel-archive::after {
   content:"\f004";
-  font-family:FontAwesome
+  font-family:FontAwesome;
 }
 .xopixel-back::after {
   content:"\f060";
