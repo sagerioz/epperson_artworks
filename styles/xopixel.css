@@ -54,6 +54,14 @@ html {
   margin-left:2rem;
   margin-bottom: 10px;
 }
+.xopixel-header ul {
+  font-family:Nunito,sans-serif;color:#fff;
+  font-size:1rem;
+  font-weight:200;
+  letter-spacing:.05rem;
+  margin-left:2rem;
+  margin-bottom: 40px;
+}
 #mug {
   display:block;
   border-radius: 50%;
