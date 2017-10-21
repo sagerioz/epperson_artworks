@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
 @import url(https://fonts.googleapis.com/css?family=Nunito:700);
+/*RESET*/
+ul, li, a {margin:0;}
 
 
 body {
@@ -178,12 +180,12 @@ h1.intro {
 section {
     padding: 0 0 50px;
 }
-/*article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
     display: block;
 }
 article, aside, footer, header, hgroup, main, nav, section {
     display: block;
-}*/
+}
 
 .container:after, .row:after, .u-cf {
     content: "";
@@ -228,7 +230,7 @@ hr {
 /*================================================================================
 responsive menu*/
 
-navmenu {
+nav {
 
 	float: right;
 	padding: 20px;
@@ -334,6 +336,11 @@ li {
 @media screen and (min-width: 1025px){}
 
 @media (min-width: 481px) and (max-width: 760px){
+  /*header {
+
+		position: absolute;
+
+	}*/
   #work .xop-section {
     margin-left: 25px;
     margin-right: 0;
@@ -379,7 +386,7 @@ li {
       font-size: 1.4rem;*/
   }
 
-  navmenu:hover ul {
+  nav:hover ul {
 
 		display: block;
 
@@ -395,23 +402,24 @@ li {
     display: none;
   }
 
-	navmenu ul, navmenu:active ul {
+	nav ul, nav:focus ul {
 
 		display: none;
 		position: absolute;
-		padding: 20px;
+		padding: 10px;
 		background: #fff;
 		border: 5px solid #444;
-		right: 20px;
-		top: 60px;
-		width: 50%;
+		right: 10px;
+		top: 10px;
+		width: 20%;
 		border-radius: 4px 0 4px 4px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     vertical-align: text-bottom;
+    z-index: 101;
 
 	}
 
-	navmenu li {
+	nav li {
 
 		text-align: center;
 		width: 100%;
