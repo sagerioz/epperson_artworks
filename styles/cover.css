@@ -331,12 +331,44 @@ li {
 #work .xop-section {
   max-width: 960px;
 }
+#gschool_img {
+  width: 30%;
+  float: left;
+  margin: 1rem;
+  padding: 0rem, 1rem, 0, 1rem;
+  vertical-align: text-top;
+
+}
+#epperson_img {
+  width: 100%;
+  float: left;
+  margin: 1rem;
+  padding: 1rem, 1rem, 0, 1rem;
+
+}
+article {
+  font-family: 'Open Sans', sans-serif;
+  margin: 18px 10px 28px 10px;
+  line-height: 1.5;
+  font-size: 1.3rem;
+}
+.paddingleft {
+  padding-left: 1em;
+}
+
 @media screen and (min-width: 1025px){}
 
 /*===============================================================================
 ===============================================================================*/
 
 @media (min-width: 581px) and (max-width: 760px){
+  #epperson_img {
+    width: 100%;
+    float: left;
+    margin: 1rem;
+    padding: 1rem, 1rem, 0, 1rem;
+
+  }
   .project-title {
     font-family: 'Nunito', sans-serif;
     color: #000;
@@ -357,8 +389,22 @@ li {
     #subtitle {
   		display: none;
   	}
+    #epperson_img {
+      width: 100%;
+      float: left;
+      margin: 1rem;
+      padding: 1rem, 1rem, 0, 1rem;
+
+    }
   }
   @media screen and (max-width: 800px) {
+    #epperson_img {
+      width: 100%;
+      float: left;
+      margin: 1rem;
+      padding: 1rem, 1rem, 0, 1rem;
+
+    }
     .button, button {
         height: auto;
         padding: .75rem 2.75rem;
@@ -503,6 +549,13 @@ li {
 @media screen and (max-width: 700px){
   .project-showcase img.project-image {
     display: none;
+  }
+  #epperson_img {
+    width: 80%;
+    float: left;
+    margin: 1rem;
+    padding: 1rem, 1rem, 0, 1rem;
+
   }
 }
 
