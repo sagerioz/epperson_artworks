@@ -355,6 +355,20 @@ article {
 .paddingleft {
   padding-left: 1em;
 }
+.icon {
+  width: 6%;
+  height: 6%;
+  margin: auto;
+  padding-bottom: 0px;
+  margin-top: 1rem;;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+.centered {
+  text-align: center;
+  align-items: center;
+}
 
 @media screen and (min-width: 1025px){}
 
@@ -398,6 +412,16 @@ article {
     }
   }
   @media screen and (max-width: 800px) {
+    .icon {
+      width: 10%;
+      height: 10%;
+      margin: auto;
+      padding-bottom: 0px;
+      margin-top: .25rem;
+      margin-left: .75rem;
+      margin-right: .75rem;
+      margin-bottom: 1rem;
+    }
     #epperson_img {
       width: 100%;
       float: left;
